@@ -19,14 +19,6 @@ body {
     font-size: 18px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--primary) !important;
-}
 
 section {
     padding: 60px 0;
@@ -589,7 +581,12 @@ footer{
 .gallery_image img{
     border-radius: 10px;
 }
-
+.escorts_listing_new{
+    background: var(--primary);
+}
+.escorts_listing_new h2{
+    color: #ffc109;
+}
 
 
 
