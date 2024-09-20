@@ -6,8 +6,8 @@
     --secondary: #e69a8d;
     --white: #f8f9fa;
     --black: #000;
+    --yellow: #ffc109;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +38,9 @@ a:focus,
 button:focus {
     box-shadow: none !important;
 }
-
+.text-yellow{
+    color: var(--yellow);
+}
 .text-primary {
     color: var(--primary) !important;
 }
@@ -86,7 +88,7 @@ button:focus {
     left: 0;
     z-index: 999;
     background: var(--primary);
-    box-shadow: 0px 0px 4px 2px #ffc109;
+    box-shadow: 0px 0px 4px 2px var(--yellow);
 }
 
 a.navbar-brand{
@@ -266,7 +268,7 @@ footer{
     color: var(--white);
 }
 .location-tag {
-    background: linear-gradient(90deg, rgb(183 0 141) 0%, rgba(128, 0, 128) 51%, rgb(241 20 120) 100%);
+    background: linear-gradient(90deg, rgb(255 192 8) 0%, rgb(0 0 0) 51%, rgb(255 192 8) 100%);
     color: #fff;
 }
 .location-tag a{
@@ -588,7 +590,37 @@ footer{
     color: #ffc109;
 }
 
-
+.profile-box {
+    margin: 10px;
+    border: 2px solid var(--yellow);
+}
+.pro-detail {
+    text-align: center;
+    background-color: var(--yellow);
+    padding: 5px 0;
+}
+.pro-detail h5 {
+    padding: 5px 0;
+    color: var(--black);
+    border-bottom: 1px solid var(--black);
+}
+.pro-social {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.pro-social .fa-phone {
+    background-color: #ba1b1b;
+    color: var(--white);
+}
+.pro-social i {
+    border-radius: 5px;
+    padding: 6px 9px;
+    margin-top: 5px;
+    font-size: 1.6rem;
+    background-color: #33EB00;
+    color: var(--white);
+}
 
 
 
